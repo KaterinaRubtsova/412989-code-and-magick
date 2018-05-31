@@ -1,7 +1,7 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
 * Студент: [Катерина](https://up.htmlacademy.ru/javascript/14/user/412989).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Дос](https://htmlacademy.ru/profile/andreydos).
 
 ---
 
