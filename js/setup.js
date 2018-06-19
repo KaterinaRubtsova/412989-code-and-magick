@@ -41,6 +41,8 @@ var openPopup = function () {
 
 var closePopup = function () {
   setupDialog.classList.add('hidden');
+  setupDialog.style.left = '50%';
+  setupDialog.style.top = '80px';
   document.removeEventListener('keydown', onPopupEscPress);
 };
 
