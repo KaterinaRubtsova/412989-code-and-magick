@@ -2,9 +2,9 @@
 
 (function () {
   // Сделать диалог редактирования персонажа перетаскиваемым (draggable)
-
   var setup = document.querySelector('.overlay');
   var dialogHandler = setup.querySelector('.upload');
+  var dragged;
 
   dialogHandler.addEventListener('mousedown', function (evt) {
     evt.preventDefault();
@@ -15,11 +15,9 @@
     };
 
 
-    var dragged = false;
-
-
     var onMouseMove = function (moveEvt) {
       moveEvt.preventDefault();
+      dragged = true;
 
       var shift = {
         x: startCoords.x - moveEvt.clientX,
